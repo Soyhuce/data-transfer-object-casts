@@ -1,0 +1,16 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Call to an undefined static method StringBackedEnum\\:\\:from\\(\\)\\.$#"
+			count: 1
+			path: src/StringEnumCaster.php
+
+		-
+			message: "#^Parameter \\$types of method Soyhuce\\\\DataTransferObjectCasts\\\\StringEnumCaster\\:\\:__construct\\(\\) has invalid type StringBackedEnum\\.$#"
+			count: 1
+			path: src/StringEnumCaster.php
+
+		-
+			message: "#^Property Soyhuce\\\\DataTransferObjectCasts\\\\StringEnumCaster\\:\\:\\$types has unknown class StringBackedEnum as its type\\.$#"
+			count: 1
+			path: src/StringEnumCaster.php
