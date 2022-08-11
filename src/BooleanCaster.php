@@ -1,9 +1,11 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Soyhuce\DataTransferObjectCasts;
 
-use Spatie\DataTransferObject\Caster;
 use function is_bool;
+use Spatie\DataTransferObject\Caster;
 
 class BooleanCaster implements Caster
 {
