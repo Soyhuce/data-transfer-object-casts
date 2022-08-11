@@ -4,6 +4,7 @@
 .phpunit.result.cache
 composer.lock
 phpunit.xml
+phpunit
 phpstan.neon
 testbench.yaml
 vendor
