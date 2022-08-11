@@ -1,10 +1,12 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Soyhuce\DataTransferObjectCasts;
 
 use Carbon\CarbonImmutable;
-use Spatie\DataTransferObject\Caster;
 use function is_string;
+use Spatie\DataTransferObject\Caster;
 
 class CarbonImmutableCaster implements Caster
 {
@@ -19,7 +21,7 @@ class CarbonImmutableCaster implements Caster
 
     public function cast(mixed $value): mixed
     {
-        if (!is_string($value)) {
+        if (! is_string($value)) {
             return $value;
         }
 

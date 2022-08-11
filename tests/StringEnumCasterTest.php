@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 use Soyhuce\DataTransferObjectCasts\StringEnumCaster;
 use Soyhuce\DataTransferObjectCasts\Tests\Fixtures\StringEnum;
