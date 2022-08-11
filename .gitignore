@@ -1,0 +1,10 @@
+.idea
+.php-cs-fixer.php
+.php-cs-fixer.cache
+.phpunit.result.cache
+composer.lock
+phpunit.xml
+phpstan.neon
+testbench.yaml
+vendor
+node_modules
