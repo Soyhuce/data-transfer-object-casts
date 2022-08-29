@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Soyhuce\DataTransferObjectCasts;
 
-use function is_string;
 use Spatie\DataTransferObject\Caster;
 use StringBackedEnum;
+use function is_string;
 
 class StringEnumCaster implements Caster
 {
     /**
-     * @param  array<class-string<StringBackedEnum>>  $types
+     * @param array<class-string<StringBackedEnum>> $types
      */
     public function __construct(
         private array $types,
@@ -20,7 +20,7 @@ class StringEnumCaster implements Caster
 
     public function cast(mixed $value): mixed
     {
-        if (! is_string($value)) {
+        if (!is_string($value)) {
             return $value;
         }
 
