@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Soyhuce\DataTransferObjectCasts;
 
-use function is_bool;
 use Spatie\DataTransferObject\Caster;
+use function is_bool;
 
 class BooleanCaster implements Caster
 {
