@@ -2,6 +2,14 @@
 
 All notable changes to `data-transfer-object-casts` will be documented in this file.
 
+## 0.1.1 - 2022-08-29
+
+### What's Changed
+
+- Move larapack dd from require to require dev by @bastien-phi in https://github.com/Soyhuce/data-transfer-object-casts/pull/3
+
+**Full Changelog**: https://github.com/Soyhuce/data-transfer-object-casts/compare/0.1.0...0.1.1
+
 ## 0.1.0 - 2022-08-11
 
 ### What's Changed
